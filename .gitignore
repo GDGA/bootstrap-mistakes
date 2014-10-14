@@ -1,0 +1,12 @@
+*.DS_Store
+*.img
+*.png
+*.eot
+*.svg
+*.ttf
+*.woff
+**css/
+**js/
+**Flat-UI-master/
+**img/
+**bootstrap/
