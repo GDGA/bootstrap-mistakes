@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,107 +19,132 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <nav class="nav navbar-default" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-heart-empty"></span></a>
-          </div>
-          <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="home.html">Home</a></li>
-              <li class="active"><a href="about.html">About</a></li>
-              <li><a href="work.html">Work</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </div> <!-- container-fluid -->
-      </nav>
-      <div class="page-header">
-        <blockquote><h4>These are the languages known</h4></blockquote>
-      </div>
-      <div class="table-responsive">
-      <table class="table table-hover table-bordered table-condensed container-custom text-center">
-        <tr>
-          <th class="text-center">Skills</th>
-          <th class="text-center">Expertise Level</th>
-        </tr>
-        <tr>
-          <td data-toggle="modal" data-target="#cpp" ><u>C++</u></td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td data-toggle="modal" data-target="#java"><u>Java</u></td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <td data-toggle="modal" data-target="#php"><u>PHP</u></td>
-          <td>5</td>
-        </tr>
-      </table>
+        <nav class="nav navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <span class="glyphicon glyphicon-heart-empty"></span>
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="home.html">Home</a>
+                        </li>
+                        <li class="active"><a href="about.html">About</a>
+                        </li>
+                        <li><a href="work.html">Work</a>
+                        </li>
+                        <li><a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- container-fluid -->
+        </nav>
+        <div class="page-header">
+            <blockquote>
+                <h4>These are the languages known</h4>
+            </blockquote>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered table-condensed container-custom text-center">
+                <tr>
+                    <th class="text-center">Skills</th>
+                    <th class="text-center">Expertise Level</th>
+                </tr>
+                <tr>
+                    <td data-toggle="modal" data-target="#cpp"><u>C++</u>
+                    </td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td data-toggle="modal" data-target="#java"><u>Java</u>
+                    </td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td data-toggle="modal" data-target="#php"><u>PHP</u>
+                    </td>
+                    <td>5</td>
+                </tr>
+            </table>
+        </div>
+        <div class="pull-right">
+            <button class="btn" data-toggle="popover" data-trigger="focus" data-placement="left" data-content="Rating is on the scale of 1 to 10">
+                <span class="glyphicon glyphicon-asterisk"></span>
+                </buton>
+        </div>
     </div>
-    <div class="pull-right">
-      <button class="btn" data-toggle="popover" data-trigger="focus" data-placement="left" data-content="Rating is on the scale of 1 to 10"><span class="glyphicon glyphicon-asterisk"></span></buton>
-    </div>
-    </div> <!-- container -->
+    <!-- container -->
     <!-- Modal C++ -->
     <div class="modal fade" id="cpp" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="myModalLabel">C++</h4>
-          </div>
-          <div class="modal-body">
-            <p>C++ (pronounced cee plus plus) is a general purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low level memory manipulation.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">C++</h4>
+                </div>
+                <div class="modal-body">
+                    <p>C++ (pronounced cee plus plus) is a general purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low level memory manipulation.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- Modal Java -->
     <div class="modal fade" id="java" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="myModalLabel">Java</h4>
-          </div>
-          <div class="modal-body">
-            <p>C++ (pronounced cee plus plus) is a general purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low level memory manipulation.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Java</h4>
+                </div>
+                <div class="modal-body">
+                    <p>C++ (pronounced cee plus plus) is a general purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low level memory manipulation.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- Modal PHP -->
     <div class="modal fade" id="php" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <h4 class="modal-title" id="myModalLabel">PHP</h4>
-          </div>
-          <div class="modal-body">
-            <p>C++ (pronounced cee plus plus) is a general purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low level memory manipulation.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">PHP</h4>
+                </div>
+                <div class="modal-body">
+                    <p>C++ (pronounced cee plus plus) is a general purpose programming language. It has imperative, object-oriented and generic programming features, while also providing the facilities for low level memory manipulation.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -126,7 +152,10 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
-      $(function () { $("[data-toggle='popover']").popover(); });
+    $(function() {
+        $("[data-toggle='popover']").popover();
+    });
     </script>
-  </body>
+</body>
+
 </html>
