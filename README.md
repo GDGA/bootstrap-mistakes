@@ -22,3 +22,10 @@ Order will be like this:
 Should not take more than 2 hours to learn from 10 code files.
 
 PS: Code is not perfect at any point in time, we just try to make it better.
+
+Some good resources:
+
+Design/UI: http://www.goodui.org/
+HTML Elemental: http://htmldog.com/
+Page Speed: https://developers.google.com/speed/pagespeed/
+Chrome Dev Tools: https://developer.chrome.com/devtools
