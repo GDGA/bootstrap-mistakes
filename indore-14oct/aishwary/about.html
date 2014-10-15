@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Flat-UI-master/css/flat-ui.css">
+    <!-- Always review what you have used in your page. Something are just addeed baggage. -->
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
@@ -23,6 +24,9 @@
 
 <body>
     <div class="container" style="width: 1022px">
+        <!-- Try to minimize any styling on the page itself. Use custom.css -->
+        <!-- Also never set a width. In px. Check the site on any mobile device and you shall know the reason. -->
+
         <!-- nav bar -->
         <nav class="nav navbar-default" role="navigation">
             <!-- style="background: #292929" -->
@@ -35,6 +39,7 @@
                 <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="float: right">
                     <ul class="nav navbar-nav">
                         <li><a href="home.html">Home</a>
+                            <!-- Never use absolute links to files. Always make it relative use ./ or ../ as appropiate -->
                         </li>
                         <li><a href="apply.html">Apply</a>
                         </li>
@@ -48,6 +53,7 @@
         <!-- slider -->
         <div>
             <img src="img/slider1.png" alt="">
+            <!-- Always include alternative text to your image. Various benefits. Google about it. -->
         </div>
         <!-- about container -->
         <div class="jumbotron container-custom" style="padding: 0.5em 0.6em">
@@ -71,6 +77,7 @@
                         </div>
                         <p style="text-align: center">
                             <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="This is a tooltip">Read More</button>
+                            <!-- This is a tooltip. Seriously!? :P -->
                         </p>
                     </div>
                 </div>
@@ -121,6 +128,8 @@
                     <td>
                         <p>
                             <table class="table">
+                                <!-- Use a table, inside a table. Woooo!! :D -->
+                                <!-- Never ever ever use a table unless the data you are putting on a page is actually a table. Read about the same at htmldog.com -->
                                 <tr width="100%">
                                     <td width="50%">
                                         <h4>
@@ -202,6 +211,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Its a good idea to include your bootstrap files with their version numbers (as with JQuery) so that its easy to debug by looking at HTML file rather than go to included JS -->
 </body>
 
 </html>
